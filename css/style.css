@@ -1,0 +1,45 @@
+﻿body {
+    padding: 10px;
+}
+
+.plansza {
+    margin:30px auto;
+    position: relative;
+    background: #fff;
+    overflow: hidden;
+    width: 550px;
+    height: 444px;
+    border: 2px solid #ddd;
+}
+
+.kafelek {
+    position: absolute;
+    cursor: pointer;
+    float: left;
+    width: 100px;
+    height: 100px;
+    background: #f6da17 url(img/title.png) center center no-repeat;
+    margin: 10px;
+}
+
+.kafelek:hover {
+    background-color:#F7C11A;
+}
+
+.button {
+	padding: 0.8em 3em;
+    background: #EC185D;
+    color: #FFF;
+    border: 0;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: 0.5s background-color, 0.5s box-shadow;
+    cursor: pointer;
+    display: block;
+    font-size: 20px;
+    margin: 30px auto;
+}
+
+.moves {
+	text-align: center;
+}
